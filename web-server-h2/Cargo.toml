@@ -1,0 +1,29 @@
+[package]
+name = "web-server-h2"
+version = "0.1.0"
+authors = ["suhail <suhail_a@hotmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.1.1", features = ["full"] }
+h2 = "0.3.0"
+http = "0.2.3"
+hyper = "0.14.2"
+actix-http = "2.2.0"
+tonic = "0.4.0"
+tower-grpc = "0.1.1"
+trust-dns-server = "0.20.0"
+trust-dns-https = "0.20.0"
+ntex = "0.1.29"
+requiem-http = "1.0.1"
+actori-http = "1.0.1"
+proxide = "0.1.2"
+scrappy-http = "0.0.1"
+codec = "0.0.0"
+frame = "0.0.0"
+proto = "0.0.0"
+bytes = "1.0.1"
+env_logger = "0.8.2"
+fs = "0.0.5"
